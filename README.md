@@ -1,25 +1,7 @@
-# README
+# Dockerize Rails app 
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+   * Dockerfile with base image, set workdir, copy gem files, copy main app, and expose port 3000
 
-Things you may want to cover:
+   * Docker build -t 'imagename' . 
 
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
-# AWS-EC2-Test-Deploy
+   * Add .dockerignore
